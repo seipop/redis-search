@@ -1,0 +1,30 @@
+{
+  "name": "redis-search",
+  "version": "0.0.1",
+  "description": "redis-search is a very light-weight search engine for node.js using redis. This module is an implementation of [n-gram method](http://en.wikipedia.org/wiki/N-gram). This is a light general purpose search library that could be integrated into a blog, a documentation server, etc.",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "redis": "~0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seipop/redis-search.git"
+  },
+  "keywords": [
+    "redis",
+    "search",
+    "ngram"
+  ],
+  "author": "Cheng Zhang <sei.vzc@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "f9c22027b81a505a698ed47b3a25c24492c10c94"
+}
